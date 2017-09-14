@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 300px;
+            height: 400px;
+            border: 1px solid #000;
+            margin: 100px auto;
+            transform-style:preserve-3d ;
+        }
+        .img {
+            width: 200px;
+            height: 300px;
+            margin: 50px 50px;
+            cursor: pointer;
+            transform: rotateX(60deg) skewX(20deg);
+            box-shadow: -5px 5px 5px #acacac;
+            transition: all  3s;
+        }
+        .img:hover {
+            transform: rotateX(0deg) skewX(0deg);
+            box-shadow: -50px 50px 5px #fff;
+        }
+    </style>
+</head>
+<body>
+	°¡
+    <div class="box">
+        <div class="img">
+            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3202142048,1847832695&fm=26&gp=0.jpg" alt=""/>
+        </div>
+    </div>
+</body>
+</html>
